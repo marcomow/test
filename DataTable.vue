@@ -145,17 +145,11 @@
 </template>
 
 <script>
-	import 'tb-skeleton/dist/skeleton.css';
 
 	import Fuse from 'fuse.js';
-	import locales from './locales';
 	import { TbSkeleton } from 'tb-skeleton';
 
 	export default {
-		components: {
-			TbSkeleton,
-		},
-
 		props: {
 			title: {
 				type: String,
